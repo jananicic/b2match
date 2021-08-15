@@ -1,0 +1,33 @@
+.movie-container {
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+    background: lavender;
+    align-content: center;
+    height: 40vh;
+}
+
+.movie-container h1 {
+    margin: 0;
+}
+
+.movie-content {
+    margin-left: 20px;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .movie-container {
+        height: auto;
+        display: block;
+        padding: 15px;
+        margin: 15px;
+    }
+    .movie-content {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .back-button {
+        width: 100%;
+    }
+}
